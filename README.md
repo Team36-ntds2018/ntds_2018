@@ -40,7 +40,7 @@ Below is the teaching material you'll find in this repository.
 1. [Plotting with matplotlib][t03]
 1. [Interactive graph visualization with gephi][t04]
 1. [Sparse matrices with scipy][t05]
-1. Network science with networkx and graph-tool
+1. [Linear algebra for graphs and networkx][t06]
 1. Graph signal processing with pygsp
 1. Concluding remarks
 
@@ -52,6 +52,7 @@ Below is the teaching material you'll find in this repository.
 [t03]: https://nbviewer.jupyter.org/github/mdeff/ntds_2018/blob/outputs/tutorials/03_matplotlib.ipynb
 [t04]: https://nbviewer.jupyter.org/github/mdeff/ntds_2018/blob/outputs/tutorials/04_graph_visualization.ipynb
 [t05]: https://nbviewer.jupyter.org/github/mdeff/ntds_2018/blob/outputs/tutorials/05_scipy_sparse.ipynb
+[t06]: https://nbviewer.jupyter.org/github/mdeff/ntds_2018/blob/outputs/tutorials/06_linalg_and_networkx.ipynb
 
 For this course, we'll introduce and use the following tools:
 [conda] & [anaconda], [python], [jupyter], [git], [numpy], [scipy], [matplotlib], [pandas], [networkx], [graph-tool], [pygsp], [gephi].
@@ -77,13 +78,16 @@ Projects are carried out by groups of four students, and are to be chosen in the
 The students have to deliver four milestones, following the theory seen in class:
 
 1. [Network properties][m1]: measure and interpret some properties of the network.
+   [Best student solution][s1].
 1. [Network models][m2]: fit some relevant network models and comment on their fitness.
 1. [Spectral graph theory][m3]: visualize and cluster the network using the spectrum of the graph Laplacian.
-1. Graph signal processing: analyze data (signals, features) on the graph.
+1. [Graph signal processing][m4]: analyze data (signals, features) on the graph.
 
 [m1]: https://nbviewer.jupyter.org/github/mdeff/ntds_2018/blob/outputs/milestones/1_network_properties.ipynb
+[s1]: https://nbviewer.jupyter.org/github/mdeff/ntds_2018/blob/outputs/milestones/1_network_properties_student_solution.ipynb
 [m2]: https://nbviewer.jupyter.org/github/mdeff/ntds_2018/blob/outputs/milestones/2_network_models.ipynb
 [m3]: https://nbviewer.jupyter.org/github/mdeff/ntds_2018/blob/outputs/milestones/3_spectral_graph_theory.ipynb
+[m4]: https://nbviewer.jupyter.org/github/mdeff/ntds_2018/blob/outputs/milestones/4_graph_signal_processing.ipynb
 
 After completing those milestones, they are free to pursue any other direction of interest.
 Those data projects are meant to jointly evaluate their theoretical network analysis skills and practical Data Science skills.
